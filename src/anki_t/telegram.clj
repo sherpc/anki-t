@@ -36,6 +36,6 @@
         params {:query-params kb}]
     (http/get send-message-url params)))
 
-(def p (send-message sher-id "привет" [["не помню"] ["good"] ["awesome!"]]))
+;;(def p (send-message sher-id "привет" [["не помню"] ["good"] ["awesome!"]]))
 ;;(-> @p :body)
 
