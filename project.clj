@@ -6,7 +6,8 @@
                  [hiccup "1.0.5"]
                  [ring-server "0.3.1"]
                  [ring/ring-json "0.4.0"]
-                 [http-kit "2.1.18"]]
+                 [http-kit "2.1.18"]
+                 [cheshire "5.5.0"]]
   :plugins [[lein-ring "0.8.12"]]
   :ring {:handler anki-t.handler/app
          :init anki-t.handler/init
